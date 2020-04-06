@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>This is himanshu0103's Google Homepage replica</title>
+    
+</head>
+<style>
+      input:focus, textarea:focus, select:focus{
+        outline: none;
+    }
+    .logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+        margin-top: 0 auto;
+        text-align: center;
+    }
+    
+    .top-nav-bar {
+        position: relative;
+        color: rgba(0,0,0,0.87);
+        font-size: 13px;
+        margin-top: 20px;
+        padding: 0;
+        text-align: right;
+    }
+  
+    li {
+        display: inline;
+        padding-left: 5px;
+        padding-right: 5px;
+        list-style-type: none;
+        margin-right: 20px;
+    }
+
+    li:hover {
+        display: inline;
+        padding-left: 5px;
+        padding-right: 5px;
+        list-style-type: none;
+        text-decoration: underline;
+        opacity: .70;
+        margin-right: 20px;
+    }
+
+    .search-box, .search-box:hover {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 20px;
+        width: 580px; 
+        height: 50px;
+        border: 1px solid rgb(223, 225, 229);
+        /* border-style: solid; */
+        border-radius: 25px 25px 25px 25px;        
+    }
+
+    .search-box:hover {
+        box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+        }
+
+    .search-buttons {
+        font-size: 14px;
+        color:#5F6368;
+        width: 150px; 
+        height: 36px;
+        border: none;
+        background-color: #f2f2f2;
+        border-radius: 4px;
+        cursor: pointer;
+        margin: 20px 5px 0 5px;
+    }
+
+    #search-buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        
+
+    }
+    .search-buttons:hover {
+        box-shadow:0 1px 1px rgba(0,0,0,0.1);
+        background-image:-webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+        background-color:#f8f8f8;
+        border:1px solid #c6c6c6;
+        color:#222;
+    }
+        /* padding-top: 18px 0 0 0; */
+    
+  
+    footer, .above-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        color: #5f6368;
+        font-size: 13px;
+        margin: 0 auto;
+        background-color:#f2f2f2;
+        border: 1px solid #e4e4e4;
+    }
+
+    .above-footer {
+        position: fixed;
+        bottom: 42px;
+        font-size: 14px;
+        padding: 10px 0 10px 40px;
+    }
+
+    .footer-li {
+        padding-left: 0px;
+        padding-right: 0px;
+        list-style-type: none;
+        font-size: 14px;        
+    }
+
+
+  html, body {
+        display: block;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        margin: 0 auto;
+        /* position: relative; */
+        min-height: 100%;
+    }
+
+    main {
+        margin-top: 200px;
+    }
+</style>
+
+<body>
+    <header>
+    <div class="top-nav-bar li:hover">
+        <ul>
+            <li>Gmail</li>
+            <li>Images</li>
+            <li><img src="img/home-grid.png" style="width: 15px; vertical-align: middle;"></li>
+        
+    </div>
+    </header>
+    
+    <main>
+    <div class="logo">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+    </div>
+    
+    <div>
+        <div>
+            <input class="search-box search-box:hover" type="search" id="search-google">
+            <svg class="search-box" style="max-width: 20px; margin: -48px 0 0 31%; border:none; box-shadow:none; " focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+        </div>
+    </div>
+    </div>
+    <div id="search-buttons">
+        <button class="search-buttons search-buttons:hover">Google Search</button>
+        <button class="search-buttons search-buttons:hover"> I'm feeling lucky!</button>
+    </div>
+    </div>
+    
+    </main>
+    <div class="above-footer" style="justify-content: start;">India</div>
+    <footer>
+        <div>
+        <ul>
+            <li class="footer-li">Advertising</li>
+            <li class="footer-li">Business</li>
+            <li class="footer-li">About</li>
+            <li class="footer-li">How Search Works</li>
+        </div>
+        <div>
+            <ul>
+                <li class="footer-li">Privacy</li>
+                <li class="footer-li">Terms</li>
+                <li class="footer-li">Settings</li>
+            </div>
+        </footer>
+
+
+</body>
+
+
+
+</html>
