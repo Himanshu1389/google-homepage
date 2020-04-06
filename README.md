@@ -1,4 +1,4 @@
-<<READ ME PLEASE>>
+README!
 
 This is a simple git repository where I create a project to replicate Google's homepage, to demonstrate and test my skills on the following points - 
 
